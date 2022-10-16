@@ -35,7 +35,7 @@ const App = () => {
     }
 
     const newNotes = [...notes, newNote];
-    setNotes(newNotes);
+    setNotes(newNotes); 
   }
   return (
     <div className="container">
